@@ -1,0 +1,32 @@
+{
+  "name": "impartial",
+  "description": "An HTML preprocessor",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/troch/impartial.git"
+  },
+  "contributors": [
+    "Thomas Roch <thomas.c.roch@gmail.com>"
+  ],
+  "author": "Thomas Roch <thomas.c.roch@gmail.com>",
+  "main": "lib/impartial.js",
+  "bugs": {
+    "url": "https://github.com/troch/impartial/issues"
+  },
+  "homepage": "https://github.com/troch/impartial",
+  "scripts": {
+    "bin": { "impartial": "./bin/impartial" },
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "preprocessor",
+    "HTML"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "jison": "",
+    "mocha": "",
+    "should": ""
+  }
+}

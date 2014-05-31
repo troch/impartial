@@ -1,0 +1,27 @@
+-html
+    -head
+        -title
+            Hello world
+
+    -body
+        --data-ng-controller AppController
+
+        -p --data-ng-bind val
+
+        -p .class-1.class-2.class-3 #andId
+
+        This is a shortcut for
+
+        -p --class class-1 class-2 class-3 --id andId
+
+        -div
+            This is some content for this div
+            -span with a span
+
+        -p content here
+
+        -div
+            How to insert an element inside some content -span .with-class like this span-- but without the need of a line feed?
+
+        -button --disabled
+            will render disabled="disabled"
