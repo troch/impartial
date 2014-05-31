@@ -2,6 +2,7 @@
 
     -p .class-1.class-2.class-3 #andId
         This is a paragraph
+        on multiple lines
 
         -button --disabled --type button
             hello
