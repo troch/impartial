@@ -14,6 +14,6 @@
     Another root level element
 
 -div .class #div
-    -button --disabled
-        click me
+    -input --disabled
+    Text should not be inside input
 
