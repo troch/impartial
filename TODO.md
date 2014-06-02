@@ -1,4 +1,6 @@
 * Self closing tags
+* doctype
+* variables and mixins
 * Attribute value on multiple lines
 * Sublime plugin
 * Escaping characters
