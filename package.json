@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/troch/impartial",
   "scripts": {
-    "bin": { "impartial": "./bin/impartial" },
+    "bin": {
+      "impartial": "./bin/impartial"
+    },
     "test": "mocha test/*.js"
   },
   "keywords": [
@@ -25,8 +27,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "mocha": "",
-    "should": "",
-    "js-beautify": ""
+    "gulp": "~3.7.0",
+    "mocha": "~1.20.1",
+    "should": "~4.0.1",
+    "js-beautify": "~1.5.1",
+    "gulp-jshint": "~1.6.2"
   }
 }
