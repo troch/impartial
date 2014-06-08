@@ -15,5 +15,6 @@
 
 -div .class #div
     -input --disabled
-    Text should not be inside input
+
+    -span .with-class #withId with content
 
