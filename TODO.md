@@ -1,3 +1,4 @@
+* Write code in a functional way
 * respect original spacing / indentation / line feeds
 * doctype
 * variables and mixins

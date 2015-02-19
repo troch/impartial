@@ -1,5 +1,9 @@
 -!html5
 
+[if IE]
+Only for IE
+[endif]
+
 -section --title element title --data-ng-controller AppController
 
     -div .class-1.class-2.class-3 #andId
