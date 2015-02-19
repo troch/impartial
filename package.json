@@ -19,6 +19,7 @@
     "bin": {
       "impartial": "./bin/impartial"
     },
+    "impartial": "node index.js",
     "test": "mocha test/*.js"
   },
   "keywords": [

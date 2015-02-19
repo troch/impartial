@@ -1,4 +1,3 @@
-* multiple attributes sharing the same value, separated by &
 * respect original spacing / indentation / line feeds
 * doctype
 * variables and mixins
