@@ -13,6 +13,7 @@
         This is a second paragraph
 
 -article
+    --data-version 1.0.0
     Another root level element
     
 -div .class #div
@@ -20,5 +21,12 @@
 
     -span .with-class #withId with content
 
--a --aria-title+title shared attribute 
+-a
+    --aria-title+title shared attribute
+    --ng-click """
+        myVar = 123;
+        doThis();
+        doThat();
+        select(thisOne);
+    """
     click me

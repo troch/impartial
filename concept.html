@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <section title="element title" data-ng-controller="AppController">
-<div class="class-1 class-2 class-3" id="andId">
-This is a paragraph
-on multiple lines
-<button disabled="disabled" type="button">
-hello
-</button>
-</div>
-<p>
-This is a second paragraph
-</p>
+    <div class="class-1 class-2 class-3" id="andId">
+        This is a paragraph on multiple lines
+        <button disabled="disabled" type="button">
+            hello
+        </button>
+    </div>
+    <p>
+        This is a second paragraph
+    </p>
 </section>
-<article>
-Another root level element
+<article data-version="1.0.0">
+    Another root level element
 </article>
 <div class="class" id="div">
-<input disabled="disabled"/>
-<span class="with-class" id="withId">
+    <input disabled="disabled" />
+    <span class="with-class" id="withId">
 with content
 </span>
 </div>
-<a title="shared attribute " title="shared attribute ">
+<a title="shared attribute" title="shared attribute" ng-click="myVar = 123; doThis(); doThat(); select(thisOne);">
 click me
 </a>
