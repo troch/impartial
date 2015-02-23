@@ -1,7 +1,11 @@
 -!html5
 
+/* Comment */
+
+// Inline comment
+
 [if IE]
-Only for IE
+IE conditional comment
 [endif]
 
 -section --title element title --data-ng-controller AppController
@@ -19,11 +23,16 @@ Only for IE
 -article
     --data-version 1.0.0
     Another root level element
-    
+
 -div .class #div
     -input --disabled
 
     -span .with-class #withId with content
+
+/*
+ Multi line comment
+ asdihoasd
+ */
 
 -a
     --aria-title+title shared attribute
@@ -34,7 +43,6 @@ Only for IE
         select(thisOne);
     """
     click me
-
 
 """
     document.ready(function () {
